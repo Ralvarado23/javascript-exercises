@@ -1,5 +1,7 @@
-const getTheTitles = function() {
-
+const getTheTitles = function(inputArray) {
+    return inputArray.map(function(dictElement) {
+        return dictElement.title;
+    });
 };
 
 // Do not edit below this line
